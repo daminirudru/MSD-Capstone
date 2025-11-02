@@ -1,0 +1,15 @@
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+.card-img { width: 100%; height: 130px; object-fit: cover; background: #0f1729; }
+.card-img.placeholder { display: grid; place-items: center; font-size: 40px; color: var(--muted); }
+.card-body { padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+.card-title { font-weight: 600; }
+.card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 0.8rem; color: var(--muted); border: 1px dashed var(--border); border-radius: 999px; padding: 2px 8px; }
+.card-row { display: flex; align-items: center; justify-content: space-between; }
+.price { font-weight: 700; }
+
+.popup-overlay { position: fixed; inset: 0; background: #0008; display: grid; place-items: center; }
+.popup { width: 420px; max-width: calc(100% - 24px); background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px; }
+.popup-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; }
+.token-box { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #0f1729; border: 1px dashed var(--border); border-radius: 12px; padding: 10px; margin: 8px 0 12px; word-break: break-all; }
+.popup-actions { display: flex; gap: 10px; justify-content: flex-end; }
